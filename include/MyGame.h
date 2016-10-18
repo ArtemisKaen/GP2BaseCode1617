@@ -9,6 +9,12 @@ public:
 	MyGame();
 	~MyGame();
 
+	GLuint m_ShaderProgram;
+
+	mat4 m_ViewMatrix;
+	mat4 m_ProjMatrix;
+	mat4 m_ModelMatrix;
+
 	void initScene();
 
 	void destroyScene();
