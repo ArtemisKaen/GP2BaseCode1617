@@ -9,6 +9,8 @@ public:
 	MyGame();
 	~MyGame();
 
+	
+
 	void render();
 	void update();
 	void initScene();
@@ -25,5 +27,9 @@ private:
 	vec4 m_AmbientLightColour;
 
 	vec3 m_CameraPosition;
+
+	GameObject * m_TestObject;
+	GameObject * m_ModelObject;
+
 };
 #endif
